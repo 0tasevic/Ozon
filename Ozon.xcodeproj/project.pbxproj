@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07531D4021CB0E2E0080D030 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07531D3F21CB0E2E0080D030 /* SecondVC.swift */; };
+		07531D4421CB11AB0080D030 /* NovostiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07531D4321CB11AB0080D030 /* NovostiCell.swift */; };
 		07B30D1021CA531800FB6BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B30D0F21CA531800FB6BF2 /* AppDelegate.swift */; };
-		07B30D1221CA531800FB6BF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B30D1121CA531800FB6BF2 /* ViewController.swift */; };
+		07B30D1221CA531800FB6BF2 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B30D1121CA531800FB6BF2 /* WelcomeVC.swift */; };
 		07B30D1521CA531800FB6BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B30D1321CA531800FB6BF2 /* Main.storyboard */; };
 		07B30D1721CA531A00FB6BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B30D1621CA531A00FB6BF2 /* Assets.xcassets */; };
 		07B30D1A21CA531A00FB6BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B30D1821CA531A00FB6BF2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07531D3F21CB0E2E0080D030 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		07531D4321CB11AB0080D030 /* NovostiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovostiCell.swift; sourceTree = "<group>"; };
 		07B30D0C21CA531800FB6BF2 /* Ozon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ozon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B30D0F21CA531800FB6BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07B30D1121CA531800FB6BF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07B30D1121CA531800FB6BF2 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		07B30D1421CA531800FB6BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07B30D1621CA531A00FB6BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07B30D1921CA531A00FB6BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +39,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07531D3E21CB0DFD0080D030 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07B30D1121CA531800FB6BF2 /* WelcomeVC.swift */,
+				07531D3F21CB0E2E0080D030 /* SecondVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07531D4221CB11650080D030 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07531D4321CB11AB0080D030 /* NovostiCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		07B30D0321CA531800FB6BF2 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +75,9 @@
 		07B30D0E21CA531800FB6BF2 /* Ozon */ = {
 			isa = PBXGroup;
 			children = (
+				07531D4221CB11650080D030 /* View */,
+				07531D3E21CB0DFD0080D030 /* Controller */,
 				07B30D0F21CA531800FB6BF2 /* AppDelegate.swift */,
-				07B30D1121CA531800FB6BF2 /* ViewController.swift */,
 				07B30D1321CA531800FB6BF2 /* Main.storyboard */,
 				07B30D1621CA531A00FB6BF2 /* Assets.xcassets */,
 				07B30D1821CA531A00FB6BF2 /* LaunchScreen.storyboard */,
@@ -135,7 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07B30D1221CA531800FB6BF2 /* ViewController.swift in Sources */,
+				07B30D1221CA531800FB6BF2 /* WelcomeVC.swift in Sources */,
+				07531D4021CB0E2E0080D030 /* SecondVC.swift in Sources */,
+				07531D4421CB11AB0080D030 /* NovostiCell.swift in Sources */,
 				07B30D1021CA531800FB6BF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
